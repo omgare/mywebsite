@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;  
+}
+.title{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+   
+    font-size: 30px;
+}
+.title1{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+   font-size: 30px;
+}
+.button{
+    position:absolute;
+    top: 62%;
+    left: 40%;
+   font-size: 30px;
+
+}
+.btn{
+    border: 1px  solid white;
+    padding:10px 30px ;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#section2{
+    background-color: aquamarine;
+
+}
+#section2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img2.webp);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    float:left;
+    list-style-type: none;
+    margin-top: 30px;
+    color:black;
+    background-color: aqua;
+    
+}
+.p{
+    position:absolute;
+    top: 115%;
+    left:10%;
+   font-size: 40px;
+   color:aquamarine;
+}
+#section3{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img3.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.p1{
+    position:absolute;
+    top: 200%;
+    left:10%;
+   font-size: 40px;
+   color:whitesmoke;
+}
+.about{
+    float:left;
+    list-style-type: none;
+    margin-top: 30px;
+    color:black;
+    background-color: aqua;
+}
+#section4{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.contact{
+    float:left;
+    list-style-type: none;
+    margin-top: 30px;
+    color:black;
+    background-color: aqua;
+
+}
+
+.form{
+    position:absolute;
+    top: 310%;
+    left:20%;
+   font-size: 40px;
+   color:aquamarine;
+}
